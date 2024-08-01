@@ -8,8 +8,9 @@ export default function main() {
         <>
 
         {/* section */}
-        <article className="">
-            <section className="mx-auto ">
+        <article className="relative">
+                        
+            {/* <section className="mx-auto ">
                 <div className="md:flex max-w-lg">
                     <div className="w-20 h-20 mx-auto mb-6 md:mr-6 flex-shrink-0">
                         <Image src="/1x/''Fichier 38.png" width={100} height={100} alt="Image background" className=" w-full object-cover mt-10 z-10" />
@@ -21,7 +22,7 @@ export default function main() {
                         <p className="mt-2 mb-3">John is a Senior Developer, mainly works in backend technologies.</p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="max-w-md mx-auto text-center w-full relative flex justify-center my-28">
                 <div className="">
