@@ -16,9 +16,12 @@ export default function Header() {
 
 
   return (
-    <section className="">
-      <Image src="/1x/''Fichier 6.png" width={2000} height={2000} alt="Banner Image" className="absolute object-cover "/>
-      <nav className="bg-white border-b w-full md:static md:text-sm md:border-none">
+    <section >
+        <section className="relative h-[95%]">
+            <Image src="/1x/''Fichier 6.png" width={2000} height={2000} alt="Banner Image" className="absolute object-cover"/>
+        </section>
+      
+      <nav className="z-20 absolute inset-0 border-b w-full md:static md:text-sm md:border-none">
         <div className="items-center px-2 mx-auto md:flex md:px-6">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
@@ -57,16 +60,13 @@ export default function Header() {
                   </li>
                 );
               })}
-              <div className="space-y-3 items-center gap-x-6 md:flex md:space-y-0">
+              <div className="space-y-3 font-bold items-center gap-x-6 md:flex md:space-y-0">
                 Get Started Now
               </div>
             </ul>
           </div>
         </div>
       </nav>
-
-      <section className=""></section>
-      <section className=""></section>
     </section>
   );
 }
