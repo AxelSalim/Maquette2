@@ -16,8 +16,7 @@ export default function Home() {
       </Head>
 
 
-      <section className="relative">
-        <Image src="/1x/''Fichier 6.png" alt="Image background" layout="fill"  className="absolute object-cover inset-0 z-[-1]" />
+      <section className="">
         <Header></Header>
       </section>
 
