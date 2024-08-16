@@ -16,11 +16,11 @@ export default function Home() {
       </Head>
 
 
-      <section className="">
+      <section className="relative">
         <Header></Header>
       </section>
 
-      <section className="bg-white">
+      <section className="bg-red-700">
         <Main></Main>
       </section>
 
